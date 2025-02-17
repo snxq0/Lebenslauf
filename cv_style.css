@@ -82,14 +82,3 @@ ul {
 .another:active {
   transform: scale(0.95);
 }
-
-/* Анимация пульса */
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-
-.another.pulse {
-  animation: pulse 1.5s infinite;
-}
